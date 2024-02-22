@@ -8,7 +8,8 @@ To install and run the AI assistant application locally, follow these steps:
 
 1. Clone the repository to your local machine:
    ```bash
-   git clone https://github.com/your-username/ai-assistant.git
+   git clone https://github.com/K4rlosReyes/ai-assistant.git
+
    ```
 
 2. Navigate to the project directory:
