@@ -1,4 +1,5 @@
 import fastapi
+from fastapi import FastAPI
 import uvicorn
 from fastapi.middleware.cors import CORSMiddleware
 
@@ -6,7 +7,7 @@ from core.manager import settings
 from v1.api import router as api_endpoint_router
 
 
-def initialize_backend_application() -> fastapi.FastAPI():
+def initialize_backend_application() -> FastAPI:
     app = fastapi.FastAPI(**settings.set_backend_app_attributes)
 
     app.add_middleware(
