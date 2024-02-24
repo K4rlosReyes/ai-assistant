@@ -1,6 +1,6 @@
 # AI Assistant Chat Application
 
-This project is an AI assistant chat application built using FastAPI + LLamaIndex + Postgre. The AI assistant is capable of responding to user queries and performing various tasks such as providing information and answering questions.
+This project is an AI assistant chat application built using FastAPI + LLamaIndex + ChromaDB. The AI assistant is capable of responding to user queries and performing various tasks such as providing information and answering questions.
 
 ## Installation
 
