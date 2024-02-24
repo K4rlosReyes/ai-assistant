@@ -2,10 +2,12 @@ from llama_index.embeddings.huggingface import HuggingFaceEmbedding
 from llama_index.embeddings.openai import OpenAIEmbedding
 from core.manager import settings
 
-embedding = "llama"
+embedding = "openai"
 
 if embedding == "openai":
-    embed_model = OpenAIEmbedding(api_key=settings.OPENAI_KEY)
+    embed_model = OpenAIEmbedding(
+        model="text-embedding-3-large", api_key=settings.OPENAI_KEY, dimensions=384
+    )
 
 else:
     # Initialize the HuggingFaceEmbedding instance with the desired model
