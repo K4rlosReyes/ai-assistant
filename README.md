@@ -1,6 +1,6 @@
 # AI Assistant Chat Application
 
-This project is an AI assistant chat application built using FastAPI. The AI assistant is capable of responding to user queries and performing various tasks such as providing information, answering questions, and executing commands.
+This project is an AI assistant chat application built using FastAPI + LLamaIndex + Postgre. The AI assistant is capable of responding to user queries and performing various tasks such as providing information and answering questions.
 
 ## Installation
 
@@ -24,14 +24,14 @@ To install and run the AI assistant application locally, follow these steps:
 
 4. Start the FastAPI server:
    ```bash
-   uvicorn main:app --reload
+   python main.py
    ```
 
-5. Access the AI assistant application in your web browser at http://localhost:8000.
+5. Access the AI assistant API at http://localhost:8000.
 
 ## Usage
 
-Once the application is running, you can interact with the AI assistant through the web interface. Simply type your queries or commands in the chat input box and press Enter to send them. The AI assistant will respond accordingly.
+Once the application is running, you can interact with the AI assistant through requests. The AI assistant will respond accordingly.
 
 ## Development Practices
 
