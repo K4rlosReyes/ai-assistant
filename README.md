@@ -29,6 +29,11 @@ To install and run the AI assistant application locally, follow these steps:
 
 5. Access the AI assistant API at http://localhost:8000.
 
+### To try it in the terminal change step 4:
+```bash
+python -m core.process.rag
+```
+
 ## Usage
 
 Once the application is running, you can interact with the AI assistant through requests. The AI assistant will respond accordingly.
